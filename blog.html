@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-com-web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+
+    <section id="header">
+
+        <a href="#"> <img src="wonder.png" width="80" class="logo" srcset=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li> <a href="index.html">Home</a></li>
+                <li> <a class="" href="shop.html">Shop</a></li>
+                <li> <a class="underline" href="blog.html">Blog</a></li>
+                <li> <a href="about.html">about</a></li>
+                <li> <a href="contact.html">contact</a></li>
+                <li> <a href="card.html">cart 🛒</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="page-header" class="blog-header">
+        <h2 style="color: whitesmoke; font-weight: 500;"> Readmore </h2>
+        <p style="color: black; font-weight: 700;">Read all case studies about our product..! </p>
+    </section>
+
+
+    <section id="blog">
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="shirt pic/shirt 2.jpg" alt="">
+            </div>
+            <div class="blog-details">
+                <h4> The cotton-Jersey and Zip-Hoodie</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequatur facilis laudantium ratione. Ut
+                    corrupti et, rerum praesentium consequatur voluptatibus provident!
+                </p>
+            </div>
+        </div>
+
+          <div class="blog-box">
+            <div class="blog-img">
+                <img src="baner 3,4.webp" alt="">
+            </div>
+            <div class="blog-details">
+                <h4> The cotton-Jersey and Zip-Hoodie</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequatur facilis laudantium ratione. Ut
+                    corrupti et, rerum praesentium consequatur voluptatibus provident!
+                </p>
+            </div>
+        </div>
+
+          <div class="blog-box">
+            <div class="blog-img">
+                <img src="baner 3, 3.avif" alt="">
+            </div>
+            <div class="blog-details">
+                <h4> The cotton-Jersey and Zip-Hoodie</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequatur facilis laudantium ratione. Ut
+                    corrupti et, rerum praesentium consequatur voluptatibus provident!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-p1">
+        <div class="newstext">
+            <h4> SignUp for new Collection</h4>
+            <p>Get E-mail updates about our latest shop and <span> Special offer</span></p>
+        </div>
+
+        <div class="form">
+            <input type="text" placeholder="Your e-mail address">
+            <button class="normal">SignUp</button>
+        </div>
+    </section>
+
+    <footer class="ection-p1">
+        <div class="col">
+            <img class="logo" src="wonder.png" width="100">
+            <h4>Contact </h4>
+            <p><strong> Address :</strong> 6/52 Aranthangi </p>
+            <p><strong>Phone :</strong> +91 8110937115 / +91 8110937177</p>
+            <p><strong>Hours :</strong> 09:00 to 8:00 </p>
+            <div class="follow">
+                <h4> Folllow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4> About </h4>
+            <a href="#"> About us</a>
+            <a href="#"> Delivery Information</a>
+            <a href="#"> Privacy Policy</a>
+            <a href="#"> Terms & Condition</a>
+            <a href="#"> Contact us</a>
+        </div>
+
+        <div class="col">
+            <h4> My Account </h4>
+            <a href="#"> Sign In</a>
+            <a href="#"> View Cart</a>
+            <a href="#"> My Wishlist</a>
+            <a href="#"> Track my Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4> Install app </h4>
+            <p>From app store or Google play</p>
+            <div class="row">
+                <img src="footer/app icon.svg" width="10">
+                <img src="footer/google icon.png" width="10">
+            </div>
+            <p>Secured follow Gateways </p>
+            <img src="footer/payment icon.webp" width="800">
+        </div>
+    </footer>
+
+
+<style>
+    @media (max-width: 480px) {
+
+    #page-header.blog-header {
+        height: 30vh;
+    }
+
+    #page-header h2 {
+        font-size: 28px;
+    }
+
+    #page-header p {
+        font-size: 14px;
+    }
+
+    #blog {
+        padding: 40px 20px;
+    }
+
+    #blog .blog-box {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    #blog .blog-img,
+    #blog .blog-details {
+        width: 100%;
+        padding: 0;
+    }
+
+    #blog .blog-img img {
+        height: 220px;
+    }
+
+    #blog .blog-details {
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    #blog .blog-details h4 {
+        font-size: 18px;
+    }
+
+    #blog .blog-details p {
+        font-size: 14px;
+    }
+}
+</style>
+    <script src="script.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
